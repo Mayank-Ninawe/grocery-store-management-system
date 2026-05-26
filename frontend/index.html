@@ -1,1 +1,53 @@
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Groceria - Grocery Store Management</title>
+
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="./app.js"></script>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand-block">
+        <div class="brand-logo">G</div>
+        <div>
+          <p class="eyebrow">Store OS</p>
+          <h1>Groceria</h1>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <a href="#dashboard" class="nav-link">Dashboard</a>
+        <a href="#products" class="nav-link">Products</a>
+        <a href="#inventory" class="nav-link">Inventory</a>
+        <a href="#billing" class="nav-link">Billing</a>
+        <a href="#suppliers" class="nav-link">Suppliers</a>
+        <a href="#reports" class="nav-link">Reports</a>
+      </nav>
+
+      <div class="sidebar-foot">
+        <p>Light themed 3D-ready UI</p>
+      </div>
+    </aside>
+
+    <main class="main-panel">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Management Panel</p>
+          <h2 id="page-title">Dashboard</h2>
+        </div>
+        <button class="theme-chip" type="button">Live Local Mode</button>
+      </header>
+
+      <section id="app-view" class="page-view"></section>
+    </main>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
