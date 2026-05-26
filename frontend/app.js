@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://localhost:8080/api";
+// API_BASE_URL is now handled in config.js
 
 const pageTitle = document.getElementById("page-title");
 const appView = document.getElementById("app-view");

@@ -12,7 +12,7 @@ import lombok.RequiredArgsConstructor;
 @RestController
 @RequestMapping("/api/reports")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "*")
+
 public class ReportsController {
 
     private final ReportsService reportsService;

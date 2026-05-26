@@ -868,3 +868,53 @@ a {
     height: 260px;
   }
 }
+
+/* Base Error / Success UI */
+.error-box, .empty-state, .loading-state, .success-box {
+  padding: 24px;
+  border-radius: var(--radius-md);
+  text-align: center;
+  margin: 16px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.error-box {
+  background: rgba(185,61,61,0.08);
+  border: 1px solid rgba(185,61,61,0.2);
+  color: var(--danger);
+  font-weight: 500;
+}
+
+.empty-state {
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px dashed var(--muted);
+  color: var(--muted);
+}
+
+.message-success {
+  background: rgba(42,122,66,0.1);
+  border: 1px solid rgba(42,122,66,0.2);
+  color: var(--success);
+}
+
+/* Specific Mobile Fixes (375px) */
+@media (max-width: 375px) {
+  .form-actions {
+    flex-direction: column;
+  }
+  .btn, .card-btn, .search-input {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  .table, .table-container, table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+  .inventory-card, .billing-product-card, .cart-item-card, .supplier-card, .product-card {
+    padding: 12px;
+  }
+}
