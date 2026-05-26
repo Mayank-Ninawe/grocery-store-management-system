@@ -1,0 +1,23 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Java / Spring
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+*.log
+
+# Node
+frontend/node_modules/
+
+# Env files
+.env
+.env.*
+application-local.properties
+
+# Build outputs
+dist/
+build/
