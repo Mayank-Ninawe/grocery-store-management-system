@@ -1,0 +1,12 @@
+com\mayank\product\Product.class
+com\mayank\product\ProductServiceApplication.class
+com\mayank\product\ProductController.class
+com\mayank\product\ProductServiceImpl.class
+com\mayank\product\ProductRequest.class
+com\mayank\config\WebConfig.class
+com\mayank\product\ProductService.class
+com\mayank\product\ProductResponse$ProductResponseBuilder.class
+com\mayank\common\TestController.class
+com\mayank\product\Product$ProductBuilder.class
+com\mayank\product\ProductResponse.class
+com\mayank\product\ProductRepository.class

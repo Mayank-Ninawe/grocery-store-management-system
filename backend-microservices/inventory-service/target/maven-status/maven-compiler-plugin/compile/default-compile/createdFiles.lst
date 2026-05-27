@@ -1,0 +1,12 @@
+com\mayank\inventory\InventoryServiceImpl.class
+com\mayank\inventory\ProductResponse.class
+com\mayank\inventory\InventoryController.class
+com\mayank\client\ProductClient.class
+com\mayank\config\WebConfig.class
+com\mayank\inventory\InventorySummaryResponse$InventorySummaryResponseBuilder.class
+com\mayank\inventory\InventoryService.class
+com\mayank\common\TestController.class
+com\mayank\inventory\InventoryServiceApplication.class
+com\mayank\inventory\ProductResponse$ProductResponseBuilder.class
+com\mayank\inventory\InventorySummaryResponse.class
+com\mayank\client\ProductDto.class

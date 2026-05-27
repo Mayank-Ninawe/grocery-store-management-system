@@ -1,0 +1,43 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+              - OPTIONS
+            allowedHeaders: "*"
+      routes:
+        - id: product-service
+          uri: lb://product-service
+          predicates:
+            - Path=/api/products/**
+        - id: inventory-service
+          uri: lb://inventory-service
+          predicates:
+            - Path=/api/inventory/**
+        - id: supplier-service
+          uri: lb://supplier-service
+          predicates:
+            - Path=/api/suppliers/**
+        - id: billing-service
+          uri: lb://billing-service
+          predicates:
+            - Path=/api/billing/**
+        - id: report-service
+          uri: lb://report-service
+          predicates:
+            - Path=/api/reports/**
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

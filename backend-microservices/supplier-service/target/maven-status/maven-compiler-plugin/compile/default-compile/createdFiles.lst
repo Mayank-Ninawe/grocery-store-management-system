@@ -1,0 +1,12 @@
+com\mayank\supplier\SupplierController.class
+com\mayank\supplier\Supplier.class
+com\mayank\supplier\SupplierRepository.class
+com\mayank\supplier\SupplierResponse$SupplierResponseBuilder.class
+com\mayank\supplier\SupplierResponse.class
+com\mayank\supplier\SupplierServiceApplication.class
+com\mayank\config\WebConfig.class
+com\mayank\supplier\Supplier$SupplierBuilder.class
+com\mayank\supplier\SupplierServiceImpl.class
+com\mayank\common\TestController.class
+com\mayank\supplier\SupplierService.class
+com\mayank\supplier\SupplierRequest.class
